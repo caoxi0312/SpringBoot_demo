@@ -1,2 +1,10 @@
 # SpringBoot_demo
-Demonstrating essential APIs (GET, POST, PUT, DELETE) and annotations.
+## Spring Boot Annotations:
+
+@GetMapping：maps HTTP GET requests on the specific handler method. It is equivalent to @RequestMapping ( " /url", RequestMethod.GET).
+
+@PostMapping：maps HTTP POST requests on the specific handler method. It is equivalent to @RequestMapping ( " /url", RequestMethod.POST).
+
+@PutMapping：maps HTTP PUT requests on the specific handler method. It is equivalent to @RequestMapping ( " /url", RequestMethod.PUT).
+
+@DeleteMapping：maps HTTP DELETE requests on the specific handler method. It is equivalent to @RequestMapping ( " /url", RequestMethod.DELETE).
